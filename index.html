@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Desgin</title>
+    <!-- FonteAwosem -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Normalize All ELement In Css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Master Style -->
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <!-- Start Settings Box -->
+    <div class="settings-box">
+        <div class="toggel-settings">
+                <i class="fa-solid fa-gear  icon-gear"></i>
+        </div>
+        <div class="settings-container">
+            <h4>Colors</h4>
+            <ul class="colors-list">
+                <li class="active" data-color="#009688"></li>
+                <li data-color="#FFEB3B"></li>
+                <li data-color="#03A9F4"></li>
+                <li data-color="#ff5722"></li>
+                <li data-color="#9c27b0"></li>
+            </ul>
+        </div>
+        <div class="option-box">
+            <h4>Random Backgrounds</h4>
+            <div class="random-background">
+                <span class="yes active" data-background="yes">Yes</span>
+                <span class="no"  data-background="no">No</span>
+            </div>
+        </div>
+        <div class="option-box">
+            <h4>Show Bullets</h4>
+            <div class="bullets-option">
+                <span class="yes active" data-display="show">Yes</span>
+                <span class="no" data-display="hide">No</span>
+            </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+    </div>
+    <!-- End Settings Box -->
+    <!-- Start Nav Bullets -->
+        <div class="nav-bullets">
+            <div class="bullet" data-section=".about-us">
+                <div class="tooltip">About Us</div>
+            </div>
+            <div class="bullet" data-section=".skills">
+                <div class="tooltip">Our Skills</div>
+            </div>
+            <div class="bullet" data-section=".gallery">
+                <div class="tooltip">Our Gallarey</div>
+            </div>
+            <div class="bullet" data-section=".timeline">
+                <div class="tooltip">TimeLine</div>
+            </div>
+            <div class="bullet" data-section=".features">
+                <div class="tooltip">Features</div>
+            </div>
+            <div class="bullet" data-section=".testimonials">
+                <div class="tooltip">Tesimonials</div>
+            </div>
+            <div class="bullet" data-section=".contact">
+                <div class="tooltip">Contact Us</div>
+            </div>
+        </div>
+    <!-- End Nav Bullets -->
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <!-- Start Header Section -->
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">Special Desgin</div>
+                <div class="links-container">
+                    <ul class="links ">
+                        <li><a href="#" data-section=".about-us" class="active">About</a></li>
+                        <li><a href="#" data-section=".skills">skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".features">Feature</a></li>
+                        <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <button class="toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        
+        <!-- End Header Section -->
+        </div>
+        <div class="introduction-text">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna
+                aliqua.
+            </p>
+        </div>
+    </div>
+    <!-- End Landing Page -->
+
+    <!-- Start About US -->
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About US</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+            </div>
+            <div class="image-box">
+                <img src="images/about-us.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End About US -->
+    <!-- Start Our Skills -->
+    <div class="skills">
+        <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+            <div class="skill-name">Html</div>
+            <div class="skill-progress">
+                <span data-progress="80%"></span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <div class="skill-name">Css</div>
+            <div class="skill-progress">
+                <span data-progress="100%"></span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-progress">
+                <span data-progress="70%"></span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <div class="skill-name">PHP</div>
+            <div class="skill-progress">
+                <span data-progress="65%"></span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <div class="skill-name">MySQl</div>
+            <div class="skill-progress">
+                <span data-progress="70%"></span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <div class="skill-name">React</div>
+            <div class="skill-progress">
+                <span data-progress="90%"></span>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End Our Skills -->
+    <!-- Start Gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="images-box">
+                <img src="images/01.jpg" alt="image One">
+                <img src="images/02.jpg" alt="image Two">
+                <img src="images/03.jpg" alt="image Three">
+                <img src="images/04.jpg" alt="image Four">
+                <img src="images/05.jpg" alt="image Five">
+                <img src="images/06.png" alt="">
+                <img src="images/07.jpg" alt="">
+                <img src="images/08.jpg" alt="">
+                <img src="images/09.jpg" alt="">
+                <img src="images/10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End Gallarey -->
+    <!--  Start TimeLine -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2023</div>
+
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna
+                            aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            <div class="year">2022</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna
+                            aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna
+                            aliqua.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--  End TimeLine -->
+    <!-- Start Features -->
+        <div class="features">
+            <h2>Our Features</h2>
+            <div class="container">
+                <div class="feat-box">
+                    <img src="images/Icon_01.png" alt="">
+                    <h4>DEVELOOPMENT</h4>
+                    <p>We Are Profrssional Marketing,We Will Do Anything You Imagine In No Time.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Icon_02.png" alt="">
+                    <h4>Marketing</h4>
+                    <p>We Are Profrssional Marketing,We Will Do Anything You Imagine In No Time.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Icon_03.png" alt="">
+                    <h4>DEVELOOPMENT</h4>
+                    <p>We Are Profrssional Marketing,We Will Do Anything You Imagine In No Time.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Icon_04.png" alt="">
+                    <h4>Desgining</h4>
+                    <p>We Are Profrssional Marketing,We Will Do Anything You Imagine In No Time.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Icon_05.png" alt="">
+                    <h4>Coding</h4>
+                    <p>We Are Profrssional Marketing,We Will Do Anything You Imagine In No Time.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Icon_06.png" alt="">
+                    <h4>New Effectes</h4>
+                    <p>We Are Profrssional Marketing,We Will Do Anything You Imagine In No Time.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Icon_01.png" alt="">
+                    <h4>Good Plans Pay</h4>
+                    <p>We Are Profrssional Marketing,We Will Do Anything You Imagine In No Time.</p>
+                </div>
+            </div>
+        </div>
+    <!-- Start Features -->
+    <!-- Start TestiMonials -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>Testimolnials</h2>
+            <div class="testimonials-content">
+                <div class="ts-box">
+                    <div class="image-content">
+                        <img src="images/testi-1.png" alt="">
+                        <h4>John Doe</h4>
+                        <span>
+                            <i class="filled fas fa-star"></i>
+                            <i class="filled fas fa-star"></i>
+                            <i class="filled fas fa-star"></i>
+                            <i class="filled fas fa-star"></i>
+                            <i class="filled fas fa-star"></i>
+                        </span>
+                    </div>
+                    <p>The Lorem Ipsum Company has been an integral part of our content marketing success. We have seen a notable
+                        increase
+                        in
+                        organic leads since we began using their services in 2022</p>
+                </div>
+                <div class="ts-box">
+                    <div class="image-content">
+                        <img src="images/testi-2.png" alt="">
+                        <h4>John Doe</h4>
+                        <span>
+                            <i class="filled fas fa-star"></i>
+                            <i class="filled fas fa-star"></i>
+                            <i class="filled fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                    </div>
+                    <p>The Lorem Ipsum Company has been an integral part of our content marketing success. We have seen a notable
+                        increase
+                        in
+                        organic leads since we began using their services in 2022</p>
+                </div>
+                <div class="ts-box">
+                    <div class="image-content">
+                        <img src="images/testi-3.png" alt="">
+                        <h4>John Doe</h4>
+                        <span>
+                            <i class="filled fas fa-star"></i>
+                            <i class="filled fas fa-star"></i>
+                            <i class="filled fas fa-star"></i>
+                            <i class="filled fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </span>
+                    </div>
+                    <p>The Lorem Ipsum Company has been an integral part of our content marketing success. We have seen a notable
+                        increase
+                        in
+                        organic leads since we began using their services in 2022</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End TestiMonials -->
+    <!-- Start Contact US -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact US</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="text" placeholder="Your Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="email">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                <input type="submit" value="Contact">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Contact US -->
+    <!-- Start Footer -->
+    <footer >
+        <div class="container">
+            <div class="box">
+                <h3 class="logo">Special Logo</h3>
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100008293668112&mibextid=ZbWKwL" class="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        </a>
+                </li>
+                    <li>
+                        <a href="https://instagram.com/shadi_alhamdo?igshid=ZDdkNTZiNTM=" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/qr/MMILXYAFF7LFE1" class="whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.shadi998@gmail.com" class="gmail">
+                            <i class="fa-solid fa-square-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="text">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi asperiores consectetur, recusandae ratione provident
+                        necessitatibus, cumque delectus commodi fuga praesentium beatae. Totam vel similique laborum dicta aperiam odit
+                        doloribus corporis
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <ul class="important-links">
+                    <li><a href="#">Important Link 1</a></li>
+                    <li><a href="#">Important Link 2</a></li>
+                    <li><a href="#">Important Link 3</a></li>
+                    <li><a href="#">Important Link 4</a></li>
+                    <li><a href="#">Important Link 5</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Syria, Aleppo , In The Hamadaniya </div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">Business Hours:from 10:00 To 18:00 </div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        <span>+963 933-519-382</span>
+                        <span>+963 951-211-075</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mini-gallery">
+                <img src="images/mini-gallery-1.jpg" alt="">
+                <img src="images/mini-gallery-2.jpg" alt="">
+                <img src="images/mini-gallery-3.jpg" alt="">
+            </div>
+        </div>
+        <p>This Project Creat By <span>Shadi ALhamdo</span></p>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/main.js"></script>
+</body>
+</html>
